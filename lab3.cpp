@@ -131,10 +131,6 @@ void FindingTheSmallestElementAlongParallelDiagonalsExcludingTheMainDiagonal(vec
              cout << endl;
          }
           
-       int sum = 0;
-       int ch = 0;
-       int i = 0;
-       int j = 0;
          FindSumsInLinesWithoutNegativeElements(vec, size);
          FindingTheSmallestElementAlongParallelDiagonalsExcludingTheMainDiagonal(vec, size);
      }
